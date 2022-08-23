@@ -1,9 +1,11 @@
-* {
+* 
+.body {
+    background-color: lightgray;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Secular One', sans-serif;
 }
 
 .resume-contents {
@@ -23,7 +25,7 @@
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #424a50;
+    background-color: palevioletred;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -39,13 +41,14 @@
 .profile .profile-image {
     width: 100%;
     border-radius: 100%;
+    border: 7px solid palevioletred;
 }
 
 .name {
-    color: #D6DBDF;
+    color: #eeeeee;
     font-size: 30px;
     letter-spacing: 2px;
-    text-transform: uppercase;
+    font-family: 'Arvo', serif;
 }
 
 .profession {
@@ -55,9 +58,13 @@
     text-align: center;
 }
 
-
+.icon-contact {
+  width: 20px;
+  margin-right: 5px;
+  color: palevioletred;  
+}
 .contact-info { 
-    border-bottom: 2px solid #1B2631; 
+    border-bottom: 2px solid #eeeeee; 
 } 
 .left-title {
     color: #eeeeee;
@@ -95,6 +102,7 @@
 
 .right-title {
     color: #eeeeee;
+    font-family: 'Arvo', serif;
 }
 
 .gap {
